@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\ejic2\AppData\Local\Temp\JetBrains\ReSharperPlatformVs17\vAny_9b23dbcf\CoverageData\_PujaService.795006938\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=61d4c570_002D2df3_002D4f01_002D8c05_002D4e0798db7ab4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Handle_PujaMenorOIgual_ThrowMontoDePujaInvalidoException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F500B41D-8F00-4617-ADEB-639ECD194015::net8.0::PujaService.test.Aplicacion.Handlers.RegistrarPujaHandlerTests.Handle_PujaMenorOIgual_ThrowMontoDePujaInvalidoException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F500B41D-8F00-4617-ADEB-639ECD194015::net8.0::PujaService.test.Aplicacion.Handlers.RegistrarPujaHandlerTests.Handle_PujaValida_RegistraPublicaYNotificaCorrectamente&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F500B41D-8F00-4617-ADEB-639ECD194015::net8.0::PujaService.test.Api.Controllers.PujaControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a6442373_002D23dc_002D4420_002D9661_002D9d2191b869df/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;PujaService.test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test" Presentation="&amp;lt;PujaService.test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,15 @@
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\bin\Debug\net8.0\PujaService.Aplicacion.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\bin\Debug\net8.0\PujaService.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\bin\Debug\net8.0\PujaService.Aplicacion.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\bin\Debug\net8.0\PujaService.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\bin\Debug\net8.0\PujaService.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaServ.0DD6BD9D.Up2Date
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\refint\PujaService.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\ref\PujaService.Aplicacion.dll

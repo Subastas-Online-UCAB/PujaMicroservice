@@ -1,0 +1,6 @@
+@PujaService.Api_HostAddress = http://localhost:5224
+
+GET {{PujaService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
