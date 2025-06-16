@@ -2,7 +2,7 @@
   {
     "ContainingType": "PujaService.Api.Controllers.PujasController",
     "Method": "RegistrarPuja",
-    "RelativePath": "api/Pujas",
+    "RelativePath": "api/Pujas/registrarPuja",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,22 @@
       {
         "Name": "command",
         "Type": "PujaService.Aplicacion.Commands.RegistrarPujaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PujaService.Api.Controllers.PujasController",
+    "Method": "Registrar",
+    "RelativePath": "api/Pujas/registrarPujaAutomatica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PujaService.Aplicacion.Commands.registrarPujaAutomaticaCommand",
         "IsRequired": true
       }
     ],

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using PujaService.Dominio.Entidades;
 using PujaService.Infraestructura.Entidades;
 
 
@@ -14,6 +15,8 @@ namespace PujaService.Infraestructura.Persistencia
         public PujaDbContext(DbContextOptions<PujaDbContext> options) : base(options) { }
 
         public DbSet<PujaEntity> Pujas => Set<PujaEntity>();
+        public DbSet<configuracionPujaAutomatica> PujasAutomaticas { get; set; } = null!;
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

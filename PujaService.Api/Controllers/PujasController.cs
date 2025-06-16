@@ -18,7 +18,7 @@ public class PujasController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost]
+    [HttpPost("registrarPuja")]
     public async Task<IActionResult> RegistrarPuja([FromBody] RegistrarPujaCommand command)
     {
         try
@@ -35,4 +35,22 @@ public class PujasController : ControllerBase
             return StatusCode(500, new { error = "Ha ocurrido un error inesperado. Intente más tarde." }); 
         }
     }
+
+    [HttpPost("registrarPujaAutomatica")]
+    public async Task<IActionResult> Registrar([FromBody] registrarPujaAutomaticaCommand command)
+    {
+        if (command == null)
+            return BadRequest(new { error = "Comando inválido o nulo" });
+
+        try
+        {
+            var id = await _mediator.Send(command);
+            return Ok(new { PujaAutomaticaId = id });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { error = "Error al registrar puja automática", detail = ex.Message });
+        }
+    }
+
 }

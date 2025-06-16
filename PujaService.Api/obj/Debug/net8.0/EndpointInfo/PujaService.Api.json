@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Pujas": {
+    "/api/Pujas/registrarPuja": {
       "post": {
         "tags": [
           "Pujas"
@@ -25,6 +25,37 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/RegistrarPujaCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pujas/registrarPujaAutomatica": {
+      "post": {
+        "tags": [
+          "Pujas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
               }
             }
           }
@@ -115,6 +146,28 @@
           "summary": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "registrarPujaAutomaticaCommand": {
+        "type": "object",
+        "properties": {
+          "subastaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "usuarioId": {
+            "type": "string",
+            "nullable": true
+          },
+          "montoMaximo": {
+            "type": "number",
+            "format": "double"
+          },
+          "incremento": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

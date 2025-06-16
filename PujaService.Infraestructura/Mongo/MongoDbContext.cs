@@ -10,7 +10,7 @@ using MongoDB.Driver;
 
 namespace PujaService.Infraestructura.Mongo
 {
-    public class MongoDbContext
+    public class MongoDbContext : IMongoDbContext
     {
         private readonly IMongoDatabase _database;
 

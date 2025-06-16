@@ -13,3 +13,4 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\refint\PujaService.Aplicacion.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\ref\PujaService.Aplicacion.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Aplicacion\obj\Debug\net8.0\PujaService.Aplicacion.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Infraestru
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Infraestructura\obj\Debug\net8.0\PujaService.Infraestructura.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Infraestructura\obj\Debug\net8.0\PujaService.Infraestructura.genruntimeconfig.cache
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Infraestructura\obj\Debug\net8.0\ref\PujaService.Infraestructura.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Infraestructura\obj\Debug\net8.0\PujaService.Infraestructura.sourcelink.json

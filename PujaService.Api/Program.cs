@@ -21,11 +21,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PujaDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+
 // MongoDB Context
-builder.Services.AddSingleton<MongoDbContext>();
+builder.Services.AddSingleton<IMongoDbContext, MongoDbContext>();
+
 
 // Repositorio principal
 builder.Services.AddScoped<IPujaRepository, PujaPostgresRepository>();
+builder.Services.AddScoped<IPujaAutomaticaRepository, PujaAutomaticaPostgresRepository>();
 
 // Publisher que depende de IPublishEndpoint
 builder.Services.AddScoped<IRabbitEventPublisher, RabbitEventPublisher>();
