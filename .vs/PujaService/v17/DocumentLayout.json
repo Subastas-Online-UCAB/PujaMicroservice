@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\pujaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\pujaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\entidades\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|solutionrelative:pujaservice.dominio\\entidades\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\entidades\\configuracionpujaautomatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|solutionrelative:pujaservice.dominio\\entidades\\configuracionpujaautomatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\servicios\\hubs\\pujashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\servicios\\hubs\\pujashub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3963DBEE-A254-44EF-BF3D-9D617F935E94}|PujaService.Infraestructura\\PujaService.Infraestructura.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.infraestructura\\mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{F500B41D-8F00-4617-ADEB-639ECD194015}|PujaService.test\\PujaService.test.csproj|solutionrelative:pujaservice.test\\api\\controllers\\pujacontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\controllers\\pujascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBCC048B-59C4-40C2-9ADA-FC46CEE475F6}|PujaService.Aplicacion\\PujaService.Aplicacion.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.aplicacion\\commands\\registrarpujaautomaticacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCC048B-59C4-40C2-9ADA-FC46CEE475F6}|PujaService.Aplicacion\\PujaService.Aplicacion.csproj|solutionrelative:pujaservice.aplicacion\\commands\\registrarpujaautomaticacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,16 +131,8 @@
       "RelativeMoniker": "D:0:0:{3963DBEE-A254-44EF-BF3D-9D617F935E94}|PujaService.Infraestructura\\PujaService.Infraestructura.csproj|solutionrelative:pujaservice.infraestructura\\persistencia\\pujadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\entidades\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|solutionrelative:pujaservice.dominio\\entidades\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F500B41D-8F00-4617-ADEB-639ECD194015}|PujaService.test\\PujaService.test.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.test\\pujaservice.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F500B41D-8F00-4617-ADEB-639ECD194015}|PujaService.test\\PujaService.test.csproj|solutionrelative:pujaservice.test\\pujaservice.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\entidades\\configuracionpujaautomatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|solutionrelative:pujaservice.dominio\\entidades\\configuracionpujaautomatica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\interfaces\\ipujaautomaticarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.dominio\\interfaces\\inotificadordepujas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ABECC92-2C85-4288-8D60-B4640AF93320}|PujaService.Dominio\\PujaService.Dominio.csproj|solutionrelative:pujaservice.dominio\\interfaces\\inotificadordepujas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.api\\pujaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{149C08FC-54D7-4F95-BC5D-B02EDBFFCACE}|PujaService.Api\\PujaService.Api.csproj|solutionrelative:pujaservice.api\\pujaservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3963DBEE-A254-44EF-BF3D-9D617F935E94}|PujaService.Infraestructura\\PujaService.Infraestructura.csproj|c:\\users\\ejic2\\onedrive\\escritorio\\api prueba\\pujaservice\\pujaservice.infraestructura\\mongo\\documentos\\pujadocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,32 +217,25 @@
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PujaAutomaticaPostgresRepositoryTests.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
-              "RelativeDocumentMoniker": "PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
-              "RelativeToolTip": "PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDIAAABFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Puja.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\Puja.cs",
+              "RelativeDocumentMoniker": "PujaService.Dominio\\Entidades\\Puja.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\Puja.cs",
+              "RelativeToolTip": "PujaService.Dominio\\Entidades\\Puja.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T22:03:29.833Z"
+              "WhenOpened": "2025-06-10T03:25:58.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "pujaAutomaticaRegistradaConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
-              "RelativeDocumentMoniker": "PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
-              "RelativeToolTip": "PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T02:41:55.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "RabbitEventPublisher.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Event\\RabbitEventPublisher.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Event\\RabbitEventPublisher.cs",
@@ -254,20 +247,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "PujaService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Program.cs",
-              "RelativeToolTip": "PujaService.Api\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAIAwwCwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "pujaAutomaticaRegistradaConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
+              "RelativeDocumentMoniker": "PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
+              "RelativeToolTip": "PujaService.Infraestructura\\Consumers\\pujaAutomaticaRegistradaConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:48:00.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T02:41:55.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
+              "Title": "PujaAutomaticaPostgresRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
+              "RelativeDocumentMoniker": "PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
+              "RelativeToolTip": "PujaService.test\\Infraestructura\\Repositorios\\PujaAutomaticaPostgresRepositoryTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T22:03:29.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SignalRNotificadorDePujas.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Servicios\\SignalRNotificadorDePujas.cs",
               "RelativeDocumentMoniker": "PujaService.Api\\Servicios\\SignalRNotificadorDePujas.cs",
@@ -275,25 +279,62 @@
               "RelativeToolTip": "PujaService.Api\\Servicios\\SignalRNotificadorDePujas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T15:08:04.68Z",
+              "WhenOpened": "2025-06-10T15:08:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PujasController.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Controllers\\PujasController.cs",
+              "RelativeDocumentMoniker": "PujaService.Api\\Controllers\\PujasController.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Controllers\\PujasController.cs",
+              "RelativeToolTip": "PujaService.Api\\Controllers\\PujasController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:06:55.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PujasHub.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
-              "RelativeDocumentMoniker": "PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
-              "RelativeToolTip": "PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T15:11:13.106Z",
+              "Title": "PujaService.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\PujaService.Api.csproj",
+              "RelativeDocumentMoniker": "PujaService.Api\\PujaService.Api.csproj",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\PujaService.Api.csproj",
+              "RelativeToolTip": "PujaService.Api\\PujaService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-10T03:52:04.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PujaService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Program.cs",
+              "RelativeToolTip": "PujaService.Api\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwEoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:48:00.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "configuracionPujaAutomatica.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
+              "RelativeDocumentMoniker": "PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
+              "RelativeToolTip": "PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T01:22:35.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PujaService.Api\\Properties\\launchSettings.json",
@@ -301,16 +342,23 @@
               "RelativeToolTip": "PujaService.Api\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T00:09:07.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+              "WhenOpened": "2025-06-16T00:09:07.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "PujasHub.cs",
+              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
+              "RelativeDocumentMoniker": "PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
+              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
+              "RelativeToolTip": "PujaService.Api\\Servicios\\Hubs\\PujasHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:11:13.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PujaAutomaticaRegistradaConsumerTests.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Consumers\\PujaAutomaticaRegistradaConsumerTests.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Infraestructura\\Consumers\\PujaAutomaticaRegistradaConsumerTests.cs",
@@ -322,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "IMongoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Mongo\\IMongoDbContext.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Mongo\\IMongoDbContext.cs",
@@ -334,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MongoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Mongo\\MongoDbContext.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Mongo\\MongoDbContext.cs",
@@ -342,12 +390,11 @@
               "RelativeToolTip": "PujaService.Infraestructura\\Mongo\\MongoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T04:52:49.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:52:49.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\appsettings.json",
               "RelativeDocumentMoniker": "PujaService.Api\\appsettings.json",
@@ -359,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "PujaPostgresRepositoryTests.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Repositorios\\PujaPostgresRepositoryTests.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Infraestructura\\Repositorios\\PujaPostgresRepositoryTests.cs",
@@ -371,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Seeds\\DataSeed.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Seeds\\DataSeed.cs",
@@ -383,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "PujaRegistradaConsumerTests.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Infraestructura\\Consumers\\PujaRegistradaConsumerTests.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Infraestructura\\Consumers\\PujaRegistradaConsumerTests.cs",
@@ -395,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "PujaRegistradaConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Consumers\\PujaRegistradaConsumer.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Consumers\\PujaRegistradaConsumer.cs",
@@ -407,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RegistrarPujaHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Aplicacion\\Handlers\\RegistrarPujaHandlerTests.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Aplicacion\\Handlers\\RegistrarPujaHandlerTests.cs",
@@ -419,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "registrarPujaAutomaticaHandlerTest.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Aplicacion\\Handlers\\registrarPujaAutomaticaHandlerTest.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Aplicacion\\Handlers\\registrarPujaAutomaticaHandlerTest.cs",
@@ -431,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "PujaRegistradaEvent.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Eventos\\PujaRegistradaEvent.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Eventos\\PujaRegistradaEvent.cs",
@@ -443,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "pujaAutomaticaRegistradaEvent.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Eventos\\pujaAutomaticaRegistradaEvent.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Eventos\\pujaAutomaticaRegistradaEvent.cs",
@@ -455,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "pujaAutomaticaRepository.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Repositorios\\pujaAutomaticaRepository.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Repositorios\\pujaAutomaticaRepository.cs",
@@ -467,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "PujaPostgresRepository.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Repositorios\\PujaPostgresRepository.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Repositorios\\PujaPostgresRepository.cs",
@@ -479,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "RegistrarPujaHandler.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Handlers\\RegistrarPujaHandler.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Handlers\\RegistrarPujaHandler.cs",
@@ -491,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "registrarPujaAutomaticaHandler.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Handlers\\registrarPujaAutomaticaHandler.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Handlers\\registrarPujaAutomaticaHandler.cs",
@@ -503,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "RegistrarPujaCommand.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Commands\\RegistrarPujaCommand.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Commands\\RegistrarPujaCommand.cs",
@@ -515,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "PujaControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\Api\\Controllers\\PujaControllerTests.cs",
               "RelativeDocumentMoniker": "PujaService.test\\Api\\Controllers\\PujaControllerTests.cs",
@@ -527,19 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PujasController.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Controllers\\PujasController.cs",
-              "RelativeDocumentMoniker": "PujaService.Api\\Controllers\\PujasController.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\Controllers\\PujasController.cs",
-              "RelativeToolTip": "PujaService.Api\\Controllers\\PujasController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA9wDcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T05:06:55.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "PujaEntity.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Entidades\\PujaEntity.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Entidades\\PujaEntity.cs",
@@ -551,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "PujaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Infraestructura\\Persistencia\\PujaDbContext.cs",
               "RelativeDocumentMoniker": "PujaService.Infraestructura\\Persistencia\\PujaDbContext.cs",
@@ -563,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "registrarPujaAutomaticaCommand.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\Commands\\registrarPujaAutomaticaCommand.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\Commands\\registrarPujaAutomaticaCommand.cs",
@@ -575,19 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Puja.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\Puja.cs",
-              "RelativeDocumentMoniker": "PujaService.Dominio\\Entidades\\Puja.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\Puja.cs",
-              "RelativeToolTip": "PujaService.Dominio\\Entidades\\Puja.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T03:25:58.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "PujaService.test.csproj",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\PujaService.test.csproj",
               "RelativeDocumentMoniker": "PujaService.test\\PujaService.test.csproj",
@@ -595,7 +618,8 @@
               "RelativeToolTip": "PujaService.test\\PujaService.test.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-11T04:28:41.054Z"
+              "WhenOpened": "2025-06-11T04:28:41.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -611,19 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "configuracionPujaAutomatica.cs",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
-              "RelativeDocumentMoniker": "PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
-              "RelativeToolTip": "PujaService.Dominio\\Entidades\\configuracionPujaAutomatica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T01:22:35.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IPujaAutomaticaRepository.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Interfaces\\IPujaAutomaticaRepository.cs",
               "RelativeDocumentMoniker": "PujaService.Dominio\\Interfaces\\IPujaAutomaticaRepository.cs",
@@ -635,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "PujaService.test\\UnitTest1.cs",
@@ -647,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "PujaResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Aplicacion\\DTOs\\PujaResponseDto.cs",
               "RelativeDocumentMoniker": "PujaService.Aplicacion\\DTOs\\PujaResponseDto.cs",
@@ -659,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "pujasExceptions.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Excepciones\\pujasExceptions.cs",
               "RelativeDocumentMoniker": "PujaService.Dominio\\Excepciones\\pujasExceptions.cs",
@@ -671,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "INotificadorDePujas.cs",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\Interfaces\\INotificadorDePujas.cs",
               "RelativeDocumentMoniker": "PujaService.Dominio\\Interfaces\\INotificadorDePujas.cs",
@@ -683,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "PujaService.Dominio.csproj",
               "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Dominio\\PujaService.Dominio.csproj",
               "RelativeDocumentMoniker": "PujaService.Dominio\\PujaService.Dominio.csproj",
@@ -691,7 +703,8 @@
               "RelativeToolTip": "PujaService.Dominio\\PujaService.Dominio.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-11T03:54:40.124Z"
+              "WhenOpened": "2025-06-11T03:54:40.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -704,18 +717,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T04:52:01.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PujaService.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\PujaService.Api.csproj",
-              "RelativeDocumentMoniker": "PujaService.Api\\PujaService.Api.csproj",
-              "ToolTip": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.Api\\PujaService.Api.csproj",
-              "RelativeToolTip": "PujaService.Api\\PujaService.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T03:52:04.448Z"
             },
             {
               "$type": "Document",
@@ -739,7 +740,8 @@
               "RelativeToolTip": "PujaService.Infraestructura\\PujaService.Infraestructura.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T03:26:33.981Z"
+              "WhenOpened": "2025-06-10T03:26:33.981Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -775,7 +777,8 @@
               "RelativeToolTip": "PujaService.Aplicacion\\PujaService.Aplicacion.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T03:26:23.289Z"
+              "WhenOpened": "2025-06-10T03:26:23.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
