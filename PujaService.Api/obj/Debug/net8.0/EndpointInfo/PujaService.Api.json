@@ -5,12 +5,14 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Pujas": {
+    "/api/Pujas/registrarPuja": {
       "post": {
         "tags": [
           "Pujas"
         ],
+        "summary": "Registra una nueva puja sobre una subasta activa.",
         "requestBody": {
+          "description": "Comando con los datos de la puja (UsuarioId, SubastaId, Monto, etc.).",
           "content": {
             "application/json": {
               "schema": {
@@ -31,7 +33,114 @@
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Puja registrada exitosamente.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PujaResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PujaResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PujaResponseDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error de validación o subasta no válida.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error interno del servidor."
+          }
+        }
+      }
+    },
+    "/api/Pujas/registrarPujaAutomatica": {
+      "post": {
+        "tags": [
+          "Pujas"
+        ],
+        "summary": "Registra una puja automática configurada por el usuario.",
+        "requestBody": {
+          "description": "Comando con los parámetros para la puja automática (UsuarioId, SubastaId, MontoMáximo, etc.).",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/registrarPujaAutomaticaCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Puja automática registrada exitosamente.",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          },
+          "400": {
+            "description": "El comando recibido es inválido o nulo.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error interno del servidor al registrar la puja automática."
           }
         }
       }
@@ -78,6 +187,47 @@
   },
   "components": {
     "schemas": {
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "PujaResponseDto": {
+        "type": "object",
+        "properties": {
+          "pujaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "msg": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "RegistrarPujaCommand": {
         "type": "object",
         "properties": {
@@ -115,6 +265,28 @@
           "summary": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "registrarPujaAutomaticaCommand": {
+        "type": "object",
+        "properties": {
+          "subastaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "usuarioId": {
+            "type": "string",
+            "nullable": true
+          },
+          "montoMaximo": {
+            "type": "number",
+            "format": "double"
+          },
+          "incremento": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

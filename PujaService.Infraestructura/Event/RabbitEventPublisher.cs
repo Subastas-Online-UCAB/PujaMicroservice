@@ -19,7 +19,7 @@ public class RabbitEventPublisher : IRabbitEventPublisher
     }
 
     public async Task PublicarAsync<T>(T evento, CancellationToken cancellationToken) where T : class
-    {
+    { 
         await _publishEndpoint.Publish(evento, cancellationToken);
     }
 }

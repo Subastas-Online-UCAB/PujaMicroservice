@@ -22,6 +22,31 @@ namespace PujaService.Infraestructura.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("PujaService.Dominio.Entidades.configuracionPujaAutomatica", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<decimal>("Incremento")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("MontoMaximo")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("SubastaId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PujasAutomaticas");
+                });
+
             modelBuilder.Entity("PujaService.Infraestructura.Entidades.PujaEntity", b =>
                 {
                     b.Property<Guid>("Id")

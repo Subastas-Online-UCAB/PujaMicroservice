@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PujaService.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PujaService.Api.Controllers.PujasController">
+            <summary>
+            Controlador encargado de manejar las operaciones relacionadas con pujas en subastas.
+            </summary>
+        </member>
+        <member name="M:PujaService.Api.Controllers.PujasController.RegistrarPuja(PujaService.Aplicacion.Commands.RegistrarPujaCommand)">
+            <summary>
+            Registra una nueva puja sobre una subasta activa.
+            </summary>
+            <param name="command">Comando con los datos de la puja (UsuarioId, SubastaId, Monto, etc.).</param>
+            <returns>Un objeto con el ID de la puja registrada y un mensaje de éxito.</returns>
+            <response code="200">Puja registrada exitosamente.</response>
+            <response code="400">Error de validación o subasta no válida.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:PujaService.Api.Controllers.PujasController.Registrar(PujaService.Aplicacion.Commands.registrarPujaAutomaticaCommand)">
+            <summary>
+            Registra una puja automática configurada por el usuario.
+            </summary>
+            <param name="command">Comando con los parámetros para la puja automática (UsuarioId, SubastaId, MontoMáximo, etc.).</param>
+            <returns>El ID de la puja automática registrada.</returns>
+            <response code="200">Puja automática registrada exitosamente.</response>
+            <response code="400">El comando recibido es inválido o nulo.</response>
+            <response code="500">Error interno del servidor al registrar la puja automática.</response>
+        </member>
+    </members>
+</doc>

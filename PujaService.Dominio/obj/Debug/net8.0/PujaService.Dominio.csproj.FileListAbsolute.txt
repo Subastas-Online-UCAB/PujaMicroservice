@@ -9,3 +9,4 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\ob
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Debug\net8.0\refint\PujaService.Dominio.dll
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Debug\net8.0\PujaService.Dominio.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Debug\net8.0\ref\PujaService.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Debug\net8.0\PujaService.Dominio.sourcelink.json

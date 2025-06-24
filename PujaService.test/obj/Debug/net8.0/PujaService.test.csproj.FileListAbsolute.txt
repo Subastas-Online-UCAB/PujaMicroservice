@@ -149,3 +149,5 @@ C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\obj\D
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\obj\Debug\net8.0\PujaService.test.pdb
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\obj\Debug\net8.0\PujaService.test.genruntimeconfig.cache
 C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\obj\Debug\net8.0\ref\PujaService.test.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\obj\Debug\net8.0\PujaService.test.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

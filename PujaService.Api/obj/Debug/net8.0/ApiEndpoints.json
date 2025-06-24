@@ -2,7 +2,7 @@
   {
     "ContainingType": "PujaService.Api.Controllers.PujasController",
     "Method": "RegistrarPuja",
-    "RelativePath": "api/Pujas",
+    "RelativePath": "api/Pujas/registrarPuja",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -13,7 +13,71 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "PujaService.Aplicacion.DTOs.PujaResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "PujaService.Api.Controllers.PujasController",
+    "Method": "Registrar",
+    "RelativePath": "api/Pujas/registrarPujaAutomatica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PujaService.Aplicacion.Commands.registrarPujaAutomaticaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
   },
   {
     "ContainingType": "PujaService.Api.Controllers.WeatherForecastController",
