@@ -66,6 +66,36 @@
         }
       }
     },
+    "/api/Pujas/subasta/{subastaId}": {
+      "get": {
+        "tags": [
+          "Pujas"
+        ],
+        "summary": "Obtiene todas las pujas registradas para una subasta específica.",
+        "parameters": [
+          {
+            "name": "subastaId",
+            "in": "path",
+            "description": "ID de la subasta para la cual se desean consultar las pujas.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de pujas obtenida exitosamente."
+          },
+          "400": {
+            "description": "La solicitud no es válida (por ejemplo, ID vacío o malformado)."
+          },
+          "500": {
+            "description": "Ocurrió un error interno al procesar la solicitud."
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

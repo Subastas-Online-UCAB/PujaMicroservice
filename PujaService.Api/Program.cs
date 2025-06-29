@@ -27,10 +27,15 @@ builder.Services.AddSingleton<MongoDbContext>();
 =======
 builder.Services.AddSingleton<IMongoDbContext, MongoDbContext>();
 builder.Services.AddScoped<IPujaMongoRepository, PujaMongoRepository>();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 // Repositorio principal
 builder.Services.AddScoped<IPujaRepository, PujaPostgresRepository>();
+
+
 
 
 
