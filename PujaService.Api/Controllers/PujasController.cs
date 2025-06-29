@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PujaService.Aplicacion.Commands;
 using PujaService.Aplicacion.DTOs;
+using PujaService.Aplicacion.Queries;
 using PujaService.Dominio.Excepciones;
 
 
@@ -35,4 +36,31 @@ public class PujasController : ControllerBase
             return StatusCode(500, new { error = "Ha ocurrido un error inesperado. Intente más tarde." }); 
         }
     }
+<<<<<<< Updated upstream
 }
+=======
+
+
+    /// <summary>
+    /// Obtiene todas las pujas registradas para una subasta específica.
+    /// </summary>
+    /// <param name="subastaId">ID de la subasta para la cual se desean consultar las pujas.</param>
+    /// <returns>
+    /// Una lista de pujas ordenadas por fecha descendente (últimas pujas primero),
+    /// o un error si no se puede procesar la solicitud.
+    /// </returns>
+    /// <response code="200">Lista de pujas obtenida exitosamente.</response>
+    /// <response code="400">La solicitud no es válida (por ejemplo, ID vacío o malformado).</response>
+    /// <response code="500">Ocurrió un error interno al procesar la solicitud.</response>
+    [HttpGet("subasta/{subastaId}")]
+    public async Task<IActionResult> ObtenerPujasPorSubasta(string subastaId)
+    {
+        if (string.IsNullOrWhiteSpace(subastaId))
+            return BadRequest("El ID de la subasta es obligatorio.");
+
+        var query = new GetPujasPorSubastaQuery(subastaId);
+        var result = await _mediator.Send(query);
+        return Ok(result);
+    }
+}
+>>>>>>> Stashed changes

@@ -18,6 +18,7 @@ namespace PujaService.Dominio.Entidades
 
         public bool EsAutomatica { get; set; }
 
+        public Puja() { } // 👈 NECESARIO para Mongo y para inicialización con llaves
         public Puja(String subastaId, String usuarioId, decimal monto, bool esAutomatica = false)
         {
             Id = Guid.NewGuid();

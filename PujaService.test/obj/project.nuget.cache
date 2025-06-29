@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8Z2x8G8AWH8=",
+  "dgSpecHash": "B/nL7DU+YYI=",
   "success": true,
   "projectFilePath": "C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\PujaService.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ejic2\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\ejic2\\.nuget\\packages\\fluentassertions\\8.4.0\\fluentassertions.8.4.0.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\masstransit\\8.4.1\\masstransit.8.4.1.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\masstransit.abstractions\\8.4.1\\masstransit.abstractions.8.4.1.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\masstransit.rabbitmq\\8.4.1\\masstransit.rabbitmq.8.4.1.nupkg.sha512",
@@ -167,5 +168,12 @@
     "C:\\Users\\ejic2\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512",
     "C:\\Users\\ejic2\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\ejic2\\OneDrive\\Escritorio\\API prueba\\PujaService\\PujaService.test\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

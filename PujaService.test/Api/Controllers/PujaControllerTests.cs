@@ -10,6 +10,13 @@ using System.Threading.Tasks;
 using MediatR;
 using PujaService.Dominio.Excepciones;
 using PujaService.Aplicacion.DTOs;
+<<<<<<< Updated upstream
+=======
+using PujaService.Aplicacion.Handlers;
+using PujaService.Aplicacion.Queries;
+using PujaService.Dominio.Entidades;
+using PujaService.Dominio.Interfaces;
+>>>>>>> Stashed changes
 
 namespace PujaService.test.Api.Controllers
 {
@@ -77,5 +84,161 @@ namespace PujaService.test.Api.Controllers
             Assert.Equal(500, serverError.StatusCode);
         }
 
+<<<<<<< Updated upstream
+=======
+
+        [Fact]
+        public async Task Registrar_DeberiaRetornarOkConId()
+        {
+            // Arrange
+            var mockMediator = new Mock<IMediator>();
+            var controller = new PujasController(mockMediator.Object);
+
+            var command = new registrarPujaAutomaticaCommand("subasta123", "usuario456", 150m, 2);
+
+            var expectedId = Guid.NewGuid();
+            mockMediator.Setup(m => m.Send(It.IsAny<registrarPujaAutomaticaCommand>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(expectedId);
+
+            // Act
+            var result = await controller.Registrar(command);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var responseObject = okResult.Value;
+
+            // Usamos reflection para acceder a la propiedad del objeto anónimo
+            var property = responseObject?.GetType().GetProperty("PujaAutomaticaId");
+            var actualId = property?.GetValue(responseObject) as Guid?;
+
+            Assert.Equal(expectedId, actualId);
+        }
+
+        [Fact]
+        public async Task Handle_CuandoRepoFalla_LanzaExcepcion()
+        {
+            // Arrange
+            var mockRepo = new Mock<IPujaAutomaticaRepository>();
+            mockRepo.Setup(r => r.GuardarConfiguracionAsync(It.IsAny<configuracionPujaAutomatica>()))
+                .ThrowsAsync(new Exception("Error al registrar puja automática"));
+
+            var handler = new registrarPujaAutomaticaHandler(mockRepo.Object);
+
+            var command = new registrarPujaAutomaticaCommand("subasta123", "usuario456", 150m, 2);
+
+            // Act & Assert
+            await Assert.ThrowsAsync<Exception>(() =>
+                handler.Handle(command, CancellationToken.None));
+        }
+
+
+        [Fact]
+        public async Task Registrar_CuandoCommandEsNull_DeberiaRetornarBadRequest()
+        {
+            var mockMediator = new Mock<IMediator>();
+            var controller = new PujasController(mockMediator.Object);
+
+            var result = await controller.Registrar(null);
+
+            var badRequest = Assert.IsType<BadRequestObjectResult>(result);
+
+            var value = badRequest.Value!;
+            var errorProp = value.GetType().GetProperty("error")?.GetValue(value)?.ToString();
+
+            Assert.Equal("Comando inválido o nulo", errorProp);
+        }
+
+        [Fact]
+        public async Task RegistrarPujaAutomatica_Valido_RetornaOk()
+        {
+            var mockMediator = new Mock<IMediator>();
+            var controller = new PujasController(mockMediator.Object);
+
+            var command = new registrarPujaAutomaticaCommand("subastasss123", "ssss", 150m, 2);
+
+            var expectedId = Guid.NewGuid();
+            mockMediator.Setup(m => m.Send(command, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(expectedId);
+
+            var result = await controller.Registrar(command);
+
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            Assert.Equal(200, okResult.StatusCode ?? 200);
+
+            // Validar estructura del objeto anónimo
+            var value = okResult.Value!;
+            var idProp = value.GetType().GetProperty("PujaAutomaticaId");
+            Assert.NotNull(idProp);
+            Assert.Equal(expectedId, idProp.GetValue(value));
+        }
+
+
+        [Fact]
+        public async Task RegistrarPujaAutomatica_CuandoMediatorFalla_Retorna500()
+        {
+            var mockMediator = new Mock<IMediator>();
+            var controller = new PujasController(mockMediator.Object);
+
+            var command = new registrarPujaAutomaticaCommand("subastasss123", "ssss", 150m, 2);
+
+            mockMediator.Setup(m => m.Send(command, It.IsAny<CancellationToken>()))
+                .ThrowsAsync(new Exception("error simulado"));
+
+            var result = await controller.Registrar(command);
+
+            var statusResult = Assert.IsType<ObjectResult>(result);
+            Assert.Equal(500, statusResult.StatusCode);
+
+            var value = statusResult.Value!;
+            var error = value.GetType().GetProperty("error")?.GetValue(value)?.ToString();
+            Assert.Equal("Error al registrar puja automática", error);
+        }
+
+        [Fact]
+        public async Task ObtenerPujasPorSubasta_DeberiaRetornarOkConPujas()
+        {
+            // Arrange
+            var subastaId = "subasta-123";
+            var mockMediator = new Mock<IMediator>();
+
+            var listaMock = new List<PujaDto>
+            {
+                new PujaDto { Id = Guid.NewGuid(), IdSubasta = subastaId, IdUsuario = "user1", Monto = 100, FechaPuja = DateTime.UtcNow },
+                new PujaDto { Id = Guid.NewGuid(), IdSubasta = subastaId, IdUsuario = "user2", Monto = 150, FechaPuja = DateTime.UtcNow }
+            };
+
+            mockMediator.Setup(m => m.Send(It.IsAny<GetPujasPorSubastaQuery>(), default))
+                .ReturnsAsync(listaMock);
+
+            var controller = new PujasController(mockMediator.Object);
+
+            // Act
+            var resultado = await controller.ObtenerPujasPorSubasta(subastaId);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(resultado);
+            var pujas = Assert.IsAssignableFrom<List<PujaDto>>(okResult.Value);
+            Assert.Equal(2, pujas.Count);
+            Assert.Equal(subastaId, pujas[0].IdSubasta);
+        }
+
+        [Fact]
+        public async Task ObtenerPujasPorSubasta_SubastaIdInvalido_DeberiaRetornarBadRequest()
+        {
+            // Arrange
+            var mockMediator = new Mock<IMediator>();
+            var controller = new PujasController(mockMediator.Object);
+
+            string subastaIdInvalido = "   "; // vacío o espacios
+
+            // Act
+            var resultado = await controller.ObtenerPujasPorSubasta(subastaIdInvalido);
+
+            // Assert
+            var badRequest = Assert.IsType<BadRequestObjectResult>(resultado);
+            Assert.Equal("El ID de la subasta es obligatorio.", badRequest.Value);
+        }
+
+>>>>>>> Stashed changes
     }
 }
