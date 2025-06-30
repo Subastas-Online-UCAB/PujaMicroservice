@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PujaService.Aplicacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d169d1628493c71d659264ad93084acc04283a25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31b536065e008aeca8d55d793eda4f24e4611fe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PujaService.Aplicacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PujaService.Aplicacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
