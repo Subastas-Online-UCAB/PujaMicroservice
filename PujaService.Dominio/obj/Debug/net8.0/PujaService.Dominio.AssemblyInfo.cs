@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PujaService.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+526db59c231ae00e283f4670f040cb35ea8faed5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31b536065e008aeca8d55d793eda4f24e4611fe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PujaService.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PujaService.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

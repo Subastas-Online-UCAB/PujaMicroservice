@@ -1,0 +1,12 @@
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\bin\Release\net8.0\PujaService.Dominio.deps.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\bin\Release\net8.0\PujaService.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\bin\Release\net8.0\PujaService.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.AssemblyInfoInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.AssemblyInfo.cs
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.sourcelink.json
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\refint\PujaService.Dominio.dll
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\PujaService.Dominio.pdb
+C:\Users\ejic2\OneDrive\Escritorio\API prueba\PujaService\PujaService.Dominio\obj\Release\net8.0\ref\PujaService.Dominio.dll

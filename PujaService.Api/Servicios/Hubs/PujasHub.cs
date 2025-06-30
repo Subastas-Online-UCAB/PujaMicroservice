@@ -4,5 +4,9 @@ namespace PujaService.Api.Hubs;
 
 public class PujasHub : Hub
 {
-    // Puedes agregar métodos personalizados más adelante
+    public async Task UnirseASubasta(string subastaId)
+    {
+        await Groups.AddToGroupAsync(Context.ConnectionId, subastaId);
+        Console.WriteLine($"Usuario {Context.ConnectionId} se unió a la subasta {subastaId}");
+    }
 }

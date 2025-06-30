@@ -29,5 +29,18 @@
             <response code="400">El comando recibido es inválido o nulo.</response>
             <response code="500">Error interno del servidor al registrar la puja automática.</response>
         </member>
+        <member name="M:PujaService.Api.Controllers.PujasController.ObtenerPujasPorSubasta(System.String)">
+            <summary>
+            Obtiene todas las pujas registradas para una subasta específica.
+            </summary>
+            <param name="subastaId">ID de la subasta para la cual se desean consultar las pujas.</param>
+            <returns>
+            Una lista de pujas ordenadas por fecha descendente (últimas pujas primero),
+            o un error si no se puede procesar la solicitud.
+            </returns>
+            <response code="200">Lista de pujas obtenida exitosamente.</response>
+            <response code="400">La solicitud no es válida (por ejemplo, ID vacío o malformado).</response>
+            <response code="500">Ocurrió un error interno al procesar la solicitud.</response>
+        </member>
     </members>
 </doc>

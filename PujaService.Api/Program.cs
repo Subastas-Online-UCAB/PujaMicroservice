@@ -25,6 +25,7 @@ builder.Services.AddDbContext<PujaDbContext>(options =>
 
 // MongoDB Context
 builder.Services.AddSingleton<IMongoDbContext, MongoDbContext>();
+builder.Services.AddScoped<IPujaMongoRepository, PujaMongoRepository>();
 
 
 // Repositorio principal
